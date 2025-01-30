@@ -22,7 +22,7 @@ function HorizontalCards({ data }) {
               {d.name || d.title || d.original_name || d.original_title}
             </h1>
             <p className="">
-              {d.overview.slice(0, 50)}...
+              {d?.overview?.slice(0, 50)}...
               <span className="text-zinc-500"> more</span>
             </p>
           </div>
